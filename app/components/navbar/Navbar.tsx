@@ -14,6 +14,9 @@ const Navbar: React.FC<NavbarProps> = ({ currentUser }) => {
   return (
     <div className="fixed w-full bg-white z-10 shadow-sm">
       <div className="py-4 border-b-[1px]">
+        <div className="flex flex-row justify-center md:hidden ">
+          <Logo />
+        </div>
         <Container>
           <div
             className="
@@ -24,7 +27,9 @@ const Navbar: React.FC<NavbarProps> = ({ currentUser }) => {
             gap-3
             md:gap-0
             ">
-            <Logo />
+            <div className="hidden md:block">
+              <Logo />
+            </div>
 
             <Search />
             <UserMenu currentUser={currentUser} />
