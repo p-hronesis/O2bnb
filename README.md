@@ -15,7 +15,7 @@
     <a href="https://github.com/p-hronesis/O2bnb" target="_blank"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://plitter-seven.vercel.app/" target="_blank">View Demo</a>
+    <a href="https://o2bnb.vercel.app/" target="_blank">View Demo</a>
     ·
     <a href="https://github.com/p-hronesis/O2bnb/issues/new?labels=bug&template=bug-report---.md" target="_blank">Report Bug</a>
     ·
